@@ -28,5 +28,6 @@ jobs:
           with:
            github_token: ${{ secrets.GITHUB_TOKEN }}
            publish_dir: ./dist
+           cname: d3ward.com
           env:
            ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
