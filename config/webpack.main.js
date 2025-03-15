@@ -17,7 +17,7 @@ module.exports = {
 		path: config.build,
 		clean: false,
 		assetModuleFilename: '[path][name][ext]',
-		publicPath: '/' // Changed from '/toolz/'
+		publicPath: '/'
 	},
 	plugins: [
 		new CopyWebpackPlugin({
